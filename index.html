@@ -1,106 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Me</title>
-
-<style>
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    line-height: 1.6;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #F8F9FA;
+    color: #333;
 }
 
 header {
-    background: #2c3e50;
+    background: linear-gradient(135deg, #6C63FF, #9D4EDD);
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
-}
-
-.container {
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
+    padding: 3rem 1rem;
 }
 
 .card {
     background: white;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    border-left: 6px solid #6C63FF;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(108,99,255,0.2);
+}
+
+h2 {
+    color: #6C63FF;
 }
 
 footer {
+    background: #242038;
+    color: white;
     text-align: center;
     padding: 20px;
-    background: #2c3e50;
-    color: white;
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-    .container {
-        width: 95%;
-    }
-
-    .card {
-        padding: 15px;
-    }
-}
-</style>
-</head>
-
-<body>
-
-<header>
-    <h1>Bianca Gruber</h1>
-    <p>Student | Developer | Creator</p>
-</header>
-
-<div class="container">
-
-    <div class="card">
-        <h2>About Me</h2>
-        <p>
-            Welcome to my website! This page automatically adjusts
-            to phones, tablets, and desktop screens.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>Projects</h2>
-        <p>List your projects here.</p>
-    </div>
-
-    <div class="card">
-        <h2>Contact</h2>
-        <p>Email: your@email.com</p>
-    </div>
-
-</div>
-
-<footer>
-    <p>&copy; 2026 Bianca Gruber</p>
-</footer>
-
-</body>
-</html> 
+} 
