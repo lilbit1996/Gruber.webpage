@@ -1,18 +1,19 @@
 /* Type Selector */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #003049;
+    background-color: #f4f7f6;
+    color: #264653;
     margin: 0;
+    padding: 0;
 }
 
 /* ID Selector */
 #main-header {
-    background-color: #003049;
+    background-color: #2a9d8f;
     color: white;
     text-align: center;
     padding: 20px;
-    border-bottom: 4px solid #f77f00;
+    border-bottom: 4px solid #e9c46a;
 }
 
 /* Class Selector */
@@ -20,21 +21,21 @@ body {
     background-color: white;
     margin: 20px;
     padding: 20px;
-    border: 3px solid #f77f00;
+    border: 3px solid #e9c46a;
     border-radius: 10px;
 }
 
-/* Type Selector */
+/* Another Type Selector */
 h2 {
-    color: #d62828;
+    color: #2a9d8f;
 }
 
-/* ID Selector */
+/* Third Box Model Example */
 #footer {
-    background-color: #003049;
+    background-color: #264653;
     color: white;
     text-align: center;
-    margin-top: 20px;
     padding: 15px;
-    border-top: 4px solid #f77f00;
-} 
+    margin-top: 20px;
+    border-top: 4px solid #e9c46a;
+}
