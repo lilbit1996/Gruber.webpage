@@ -1,3 +1,2 @@
-# Gruber.Webpage 
-</about me webpage.html> 
-</styles.css/>
+# Gruber.Webpage
+<about me webpage.html>
